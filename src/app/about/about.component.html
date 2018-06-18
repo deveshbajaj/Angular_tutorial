@@ -1,0 +1,21 @@
+<div>
+  about works!
+  devesh 
+  
+  <table id="customers" *ngIf="myip">
+  
+    <tr>
+        <th>ID</th>
+            <th>Name of Bird</th>
+                <th>Type of Bird</th>
+    </tr>
+
+    
+    <tr *ngFor="let bird of myip">
+        <td>{{bird.ID}}</td>
+            <td>{{bird.Name}}</td>
+                <td>{{bird.Type}}</td>
+    </tr>
+  </table>
+  
+</div>

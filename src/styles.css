@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also     import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    background:#2E9CE6;
+    padding: 3em;
+    font-family: 'Raleway', 'Arial';
+    color:#fff;
+}
+ul {
+    list-style-type:none;
+    margin:0 0 2em 0;
+    padding:0;
+}
+ul li {
+    display:inline;
+    margin-right: 50px;
+}
+ul li a {
+    font-size: 1.5em;
+}
+a {
+    color:#fff;
+    text-decoration:none;
+}
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #002a69;}
+
+#customers tr:hover {background-color: rgb(31, 5, 5);}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(214, 163, 22);
+    color: white;
+}
+
+
+
+#myDIV {
+    background: red;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {background-color: rgb(255, 251, 0);}
+    to {background-color: rgb(255, 0, 0);}
+}
